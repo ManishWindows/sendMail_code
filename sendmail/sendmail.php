@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $data['name'];
     $email = $data['email'];
     $message = $data['message'];
-    $user_email = $data['user_email'];
+ //   $user_email = $data['user_email'];
 
     // Read user email template from file
     $userTemplate = file_get_contents('user_template.html');
