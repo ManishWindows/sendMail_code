@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $userSuccess = mail($email, $userSubject, $userTemplate, $headers);
 
     // Send email to admin
-    $adminEmail = 'manish.sagar@vitrelabs.com'; // Replace with your admin's email address
+    $adminEmail = 'aaryasuru2103@gmail.com'; // Replace with your admin's email address
     $adminSubject = 'New Contact Form Submission';
     $adminMessageBody = "User informations: \nName: $name\nEmail: $email\nMessage: $message";
 
